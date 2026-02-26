@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RDX</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.5)),
+    url("bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content */
+.content {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  max-width: 420px;
+}
+
+/* LOGO IMAGE */
+.logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  background: #111;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔥 logo full fit */
+}
+
+/* Text */
+.content h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 26px;
+}
+
+/* Button */
+.download-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #5f2cff, #9b6bff);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer note */
+.note {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <div class="content">
+
+    <!-- 🔥 LOGO IMAGE HERE -->
+    <div class="logo">
+      <img src="icon.png" alt="App Logo">
+    </div>
+
+    <h1>Get RDX</h1>
+
+    <p>
+      Download the app and complete verification.
+    </p>
+
+    <a href="rdx.apk" class="download-btn">Download RDX</a>
+
+    <div class="note">
+      *Developer:Atul Yadav. All Rights Reserved ©.
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
